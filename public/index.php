@@ -18,6 +18,9 @@
 | loading any of our classes later on. It feels great to relax.
 |
 */
+header('Access-Control-Allow-Origin: http://localhost:4200');
+header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
+header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
 
 require __DIR__.'/../bootstrap/autoload.php';
 
